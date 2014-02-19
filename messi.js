@@ -142,8 +142,8 @@ Messi.prototype = {
   viewport: function() {
   
     return {
-      top: ((jQuery(window).height() - this.messi.height()) / 2) +  jQuery(window).scrollTop() + "px",
-      left: ((jQuery(window).width() - this.messi.width()) / 2) + jQuery(window).scrollLeft() + "px"
+      top: ((jQuery(window).height() - this.messi.height()) / 2) + "px",
+      left: ((jQuery(window).width() - this.messi.width()) / 2) + "px"
     };
     
   },
